@@ -1,0 +1,32 @@
+# Папки с данными и историей чата (генерируются при работе, не нужны в репозитории)
+chat_history/
+chat_history2/
+text_dataset/
+text_dataset_2/
+tests_training_mikri_models/
+byte_to_emb/
+symbol_txt_emb_to_txt_emb/
+бек/
+
+# Папка с сохранёнными весами моделей (огромные бинарные файлы)
+models/
+
+# Сами файлы весов (на всякий случай, если лежат не в папке models)
+*.pth
+*.pt
+
+# Виртуальное окружение Python
+venv/
+env/
+.venv/
+
+# Кэш и настройки IDE
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+
+# Иное
+.qwen
+*.txt
+start_git.bat
